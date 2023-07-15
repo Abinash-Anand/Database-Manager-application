@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(211, 211, 211);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="box">
+            <h1>LogIn</h1>
+            <div class="login-styling">
+                <input type="text" id="userId" placeholder="User Id">
+                <input type="password" id="pass" placeholder="Password">
+                <button id="submitBtn">Login</button>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+<script>
+    document.getElementById("submitBtn").addEventListener("click", function () {
+        var pass = document.getElementById("pass").value;
+        var userId = document.getElementById("userId").value;
+        userId === "test" && pass.includes("123") ? window.location.href = "homePage.html" :
+            (blurt("You have entered Wrong Credentials!"));
+
+
+    })
+</script>
+
+
+</html>
