@@ -25,6 +25,10 @@ Some features of the application includes
 
 <img width="960" alt="s5" src="https://github.com/Abinash-Anand/Database-Manager-application/assets/74396889/a3460795-fedf-407c-9a07-d0db1d2135e4">
 
+## Video Demonstration
+
+https://github.com/Abinash-Anand/Database-Manager-application/assets/74396889/4a46848f-c80b-419e-b511-e3bc5b9f8dd1
+
 ## Here it shown the Updated list in rows and columns
 ### Color Schema
 **Green: It indicates the rows and columns that have been updated.**
@@ -59,3 +63,8 @@ seamless communication.
 1. Integration with University existing database system: Integration with the university's
 existing database for better organization and storage.
 </subscript>
+
+
+
+
+
